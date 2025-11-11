@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ title or "Meridian Accord" }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="/">
+        <img src="/assets/img/logo.svg" alt="Logo" />
+      </a>
+      <nav class="main-nav">
+        <a href="/about/">About</a>
+        <a href="/research/">Research</a>
+        <a href="/policy-areas/">Policy Areas</a>
+        <a href="/engage/">Engage</a>
+      </nav>
+    </header>
+
+    <main class="content">
+      {{ content | safe }}
+    </main>
+
+    <footer class="site-footer">
+      <small>&copy; {{ (new Date()).getFullYear() }} Meridian Accord</small>
+      <a class="admin-link" href="/admin/" hidden>CMS</a>
+    </footer>
+  </body>
+</html>

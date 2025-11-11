@@ -1,0 +1,42 @@
+# Enable later by uncommenting and setting your repo.
+# backend:
+#   name: github
+#   repo: your-username/your-repo   # e.g., tlawtonMA/meridianaccord
+#   branch: main
+# media_folder: "assets/uploads"
+# public_folder: "/assets/uploads"
+# publish_mode: editorial_workflow
+# collections:
+#   - name: "pages"
+#     label: "Pages"
+#     files:
+#       - file: "src/index.njk"
+#         label: "Home"
+#         name: "home"
+#         fields:
+#           - { label: "Title", name: "title", widget: "string" }
+#           - { label: "Body", name: "body", widget: "markdown" }
+#       - file: "src/about.njk"
+#         label: "About"
+#         name: "about"
+#         fields:
+#           - { label: "Title", name: "title", widget: "string" }
+#           - { label: "Body", name: "body", widget: "markdown" }
+#       - file: "src/research.njk"
+#         label: "Research"
+#         name: "research"
+#         fields:
+#           - { label: "Title", name: "title", widget: "string" }
+#           - { label: "Body", name: "body", widget: "markdown" }
+#       - file: "src/policy-areas.njk"
+#         label: "Policy Areas"
+#         name: "policy"
+#         fields:
+#           - { label: "Title", name: "title", widget: "string" }
+#           - { label: "Body", name: "body", widget: "markdown" }
+#       - file: "src/engage.njk"
+#         label: "Engage"
+#         name: "engage"
+#         fields:
+#           - { label: "Title", name: "title", widget: "string" }
+#           - { label: "Body", name: "body", widget: "markdown" }
