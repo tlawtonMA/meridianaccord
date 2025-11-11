@@ -40,8 +40,8 @@
     </header>
 
     <!-- Main Content -->
-    <main>
-        {% block content %}{% endblock %}
+   <main>
+    {{ content | safe }}
     </main>
 
     <!-- Footer -->
