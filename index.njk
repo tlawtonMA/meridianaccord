@@ -2,9 +2,225 @@
 layout: base.njk
 ---
 
-<section style="padding: 100px 0; text-align: center; background: #f0f0f0;">
+---
+layout: base.njk
+title: The Meridian Accord - Finding Common Ground in Uncommon Times
+description: A platform to research and design forward-looking policies that restore resilience at home and strengthen America's role in a fragmenting world.
+---
+
+<!-- Hero Section -->
+<section class="hero" id="home">
     <div class="container">
-        <h1 style="font-size: 3rem; color: #0A2140;">Hello from Index!</h1>
-        <p style="font-size: 1.5rem;">This is test content to verify the template is working.</p>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Navigating America's Future</h1>
+                <p class="hero-description">
+                    America is undergoing a profound transition. The global order that shaped the post-WWII era is being disrupted daily, while our institutions at home struggle to keep pace with new technologies, shifting demographics, and cultural divides.
+                </p>
+                <p class="hero-description">
+                    This isn't a short-term disruption but a structural shift, and to succeed and prosper into the next 'American Century', we must modernize our systems, rebuild domestic strength, and most importantly, restore trust in each other at home.
+                </p>
+                <p class="hero-emphasis">Enter the Meridian Accord.</p>
+                <button class="cta-button" onclick="document.getElementById('pillars').scrollIntoView({behavior: 'smooth'})">
+                    Explore the Issues
+                    <span>→</span>
+                </button>
+            </div>
+            <div class="hero-visual">
+                <img src="https://i.postimg.cc/ZKTBfPdC/4-Patriotic-transparent.png" alt="The Meridian Accord Logo">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Stats Section -->
+<section class="stats-section">
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <span class="stat-number">70%</span>
+                <div class="stat-label">Americans seek middle ground</div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">7</span>
+                <div class="stat-label">Core policy areas</div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">2,000+</span>
+                <div class="stat-label">Survey responses collected</div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">85%</span>
+                <div class="stat-label">Want bipartisan solutions</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Mission Section -->
+<section class="mission" id="about">
+    <div class="container">
+        <div class="mission-container">
+            <div class="mission-card">
+                <h2>Our Meridian</h2>
+                <p>
+                    Like navigators of old used meridian lines to find their way, we provide a reference point 
+                    for Americans seeking truth in a sea of information. This is not about left or right—it's about forward.
+                </p>
+                <p>
+                    We believe that beneath the surface tensions, Americans share more common ground than we're led to believe. 
+                    Our mission is to illuminate that shared terrain through research and thoughtful analysis, which will inform policies designed to strengthen America from within and prepare us all for a better tomorrow.
+                </p>
+            </div>
+            
+            <div class="mission-card">
+                <h2>Our Accord</h2>
+                <p>
+                    An accord is more than agreement—it's harmony of purpose. We seek to unite Americans around our shared aspirations: prosperity for all, security for our nation, and opportunity for future generations.
+                </p>
+                <p>
+                    Through respectful dialogue and evidence-based solutions, we're building consensus on the policies that will define America's next chapter. This accord isn't imposed from above—it emerges from the wisdom of citizens working together toward common goals.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Pillars Section -->
+<section class="pillars" id="pillars">
+    <div class="container">
+        <h2>Pillars of American Renewal</h2>
+        <div class="pillars-grid">
+            <div class="pillar-card" onclick="expandPillar(this, 'technology')">
+                <div class="pillar-icon">⚡</div>
+                <h3>Technology & Innovation</h3>
+                <p>Navigating AI, automation, and digital transformation while preserving human agency and opportunity.</p>
+                <a href="#" class="pillar-link">Explore Framework →</a>
+            </div>
+            
+            <div class="pillar-card" onclick="expandPillar(this, 'infrastructure')">
+                <div class="pillar-icon">🏗️</div>
+                <h3>Infrastructure & Resilience</h3>
+                <p>Building robust, adaptable systems that connect communities and strengthen America's foundation.</p>
+                <a href="#" class="pillar-link">Explore Framework →</a>
+            </div>
+            
+            <div class="pillar-card" onclick="expandPillar(this, 'labor')">
+                <div class="pillar-icon">👥</div>
+                <h3>Labor & Workforce</h3>
+                <p>Preparing Americans for tomorrow's jobs while honoring the dignity of all honest work.</p>
+                <a href="#" class="pillar-link">Explore Framework →</a>
+            </div>
+            
+            <div class="pillar-card" onclick="expandPillar(this, 'education')">
+                <div class="pillar-icon">📚</div>
+                <h3>Education & Learning</h3>
+                <p>Reimagining how we prepare citizens for lifelong learning and civic engagement.</p>
+                <a href="#" class="pillar-link">Explore Framework →</a>
+            </div>
+            
+            <div class="pillar-card" onclick="expandPillar(this, 'regional')">
+                <div class="pillar-icon">🌟</div>
+                <h3>Regional Development</h3>
+                <p>Strengthening local economies and communities as the foundation of national prosperity.</p>
+                <a href="#" class="pillar-link">Explore Framework →</a>
+            </div>
+            
+            <div class="pillar-card" onclick="expandPillar(this, 'economic')">
+                <div class="pillar-icon">💼</div>
+                <h3>Economic & Industrial Policy</h3>
+                <p>Balancing market freedom with strategic national interests in a transforming economy.</p>
+                <a href="#" class="pillar-link">Explore Framework →</a>
+            </div>
+            
+            <div class="pillar-card" onclick="expandPillar(this, 'governance')">
+                <div class="pillar-icon">🏛️</div>
+                <h3>Governance & Institutions</h3>
+                <p>Modernizing democratic institutions to restore trust and effectiveness.</p>
+                <a href="#" class="pillar-link">Explore Framework →</a>
+            </div>
+            
+            <div class="pillar-card">
+                <div class="pillar-icon">🔮</div>
+                <h3>Future Focus Area</h3>
+                <p>We're developing our next policy pillar based on emerging national priorities.</p>
+                <a href="#" class="pillar-link">Stay Tuned →</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Research Highlight -->
+<section class="research-highlight" id="research">
+    <div class="container">
+        <div class="research-highlight-content">
+            <h3>We underestimate our common ground</h3>
+            <p>
+                Our research reveals that Americans are more unified than divided on key issues. 
+                Through comprehensive polling and analysis, we're uncovering the common ground that exists beneath surface-level disagreements.
+            </p>
+            <a href="#" class="secondary-button" onclick="showResearchModal()">View Latest Research</a>
+        </div>
+    </div>
+</section>
+
+<!-- Accord Moments -->
+<section class="accord-moments">
+    <div class="container">
+        <h2>Areas of Agreement</h2>
+        <div class="moments-grid">
+            <div class="moment-card">
+                <span class="moment-stat">78%</span>
+                <h4>Infrastructure Investment</h4>
+                <p>Believe America needs significant infrastructure modernization regardless of party affiliation</p>
+            </div>
+            
+            <div class="moment-card">
+                <span class="moment-stat">71%</span>
+                <h4>Education Priority</h4>
+                <p>Agree that education reform is critical for America's future competitiveness</p>
+            </div>
+            
+            <div class="moment-card">
+                <span class="moment-stat">69%</span>
+                <h4>Economic Opportunity</h4>
+                <p>Want policies that create pathways to middle-class prosperity for all Americans</p>
+            </div>
+            
+            <div class="moment-card">
+                <span class="moment-stat">73%</span>
+                <h4>Institutional Trust</h4>
+                <p>Believe American institutions need modernization to meet current challenges</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Newsletter Signup -->
+<section class="newsletter-signup">
+    <div class="container">
+        <h3>Stay Informed</h3>
+        <p>Get the latest research findings, policy briefs, and insights delivered to your inbox.</p>
+        <div class="newsletter-form">
+            <input type="email" class="newsletter-input" placeholder="Enter your email address" id="newsletter-email">
+            <button class="newsletter-button" onclick="subscribeNewsletter()">Subscribe</button>
+        </div>
+    </div>
+</section>
+
+<!-- Final CTA -->
+<section class="final-cta" id="engage">
+    <div class="container">
+        <div class="final-cta-content">
+            <h2>Join the Conversation</h2>
+            <p>
+                The challenges facing America are complex, but they're not insurmountable. 
+                They require the kind of thoughtful, principled discussion that built this nation.
+            </p>
+            <div class="cta-buttons">
+                <button class="cta-button" onclick="showEngagementModal()" style="background: white; color: var(--primary-blue);">Get Involved</button>
+                <button class="secondary-button" onclick="showPolicyModal()">Read Policy Briefs</button>
+            </div>
+        </div>
     </div>
 </section>
