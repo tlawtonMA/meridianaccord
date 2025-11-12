@@ -173,7 +173,7 @@ body {
     font-size: 1.2rem;
     color: var(--text-secondary);
     margin-bottom: 1.5rem;
-    line-height: 1.7;
+    line-height: 1.6;
 }
 
 .hero-emphasis {
@@ -334,7 +334,7 @@ body {
 .mission-card p {
     font-size: 1.1rem;
     color: var(--text-secondary);
-    line-height: 1.7;
+    line-height: 1.6;
     margin-bottom: 1.5rem;
 }
 
@@ -478,7 +478,7 @@ body {
     margin: 0 auto 2.5rem auto;
     font-size: 1.2rem;
     opacity: 0.95;
-    line-height: 1.7;
+    line-height: 1.6;
 }
 
 .secondary-button {
@@ -688,7 +688,7 @@ body {
 
 .footer-section p {
     color: rgba(255, 255, 255, 0.8);
-    line-height: 1.7;
+    line-height: 1.6;
     max-width: 400px;
 }
 
@@ -833,7 +833,7 @@ body {
 
 .modal-content {
     color: var(--text-secondary);
-    line-height: 1.7;
+    line-height: 1.6;
 }
 
 .modal-content h4 {
